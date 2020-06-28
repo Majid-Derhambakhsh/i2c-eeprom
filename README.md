@@ -42,6 +42,7 @@ I2C_Memory_Erase(uint32_t address,uint32_t quantity,uint16_t time_out);
 #### 1.  Add .h and source file in project.      
 #### 2.  Config Chipset in 'i2c_memory_conf.h' header, for example:  
    * Options:  
+   
       ```c++
       #define _AT24C04 // Chipset code
       
